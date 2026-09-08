@@ -1,14 +1,11 @@
 def mostrar_codigos_ordenados(codigos):
     """
     Ordena y muestra los códigos utilizando el método de Burbuja.
-
     Parámetros:
         codigos (list): Lista de códigos de trazabilidad.
-
     Retorno:
         None
     """
-
     lista_ordenada = codigos[:]
 
     # Método de Burbuja
