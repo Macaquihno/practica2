@@ -3,7 +3,8 @@ def buscar_codigo(codigos):
     Busca un código dentro de la lista
     y cuenta cuántas veces aparece.
     """
-
+    print("\n------- BUSCAR CÓDIGOS -------")
+    
     codigo_buscar = input("Ingrese el código que desea buscar: ")
 
     encontrado = False

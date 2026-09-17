@@ -17,7 +17,7 @@ def mostrar_codigos_ordenados(codigos):
                 lista_ordenada[j] = lista_ordenada[j + 1]
                 lista_ordenada[j + 1] = auxiliar
 
-    print("\n--- CÓDIGOS ORDENADOS ---")
+    print("\n------- CÓDIGOS ORDENADOS -------")
 
     for codigo in lista_ordenada:
         print(codigo)
