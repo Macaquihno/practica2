@@ -6,7 +6,7 @@ def mostrar_codigos_ordenados(codigos): # define funcion recibiendo los codigos 
     lista_ordenada = codigos[:] # Se copia la lista original en una nueva variable
 
     # Método de Burbuja
-    for i in range(len(lista_ordenada) - 1):  # por cada elemento en la lista se repite el procedimiento
+    for i in range(len(lista_ordenada) - 1):         # por cada elemento en la lista se repite el procedimiento
         for j in range(len(lista_ordenada) - 1 - i): # compara cada elemento de la lista
 
             if lista_ordenada[j] > lista_ordenada[j + 1]: # si el primer elemento es mayor a su siguiente

@@ -1,2 +1,2 @@
 def salir():
-    print("Saliendo del programa...")
+    print("Saliendo del programa...") 
